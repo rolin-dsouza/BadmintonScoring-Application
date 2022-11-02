@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953865761183",
+    "project_id": "poona-scoring-app",
+    "storage_bucket": "poona-scoring-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953865761183:android:f36d28f07fa94a4ace0daa",
+        "android_client_info": {
+          "package_name": "com.example.poonascoringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953865761183-vfmjr16gjgabtuaan98i0l9b298b8orl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfE5mMiTY0CG_cVAlrQyyIBk5eEZNPMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953865761183-vfmjr16gjgabtuaan98i0l9b298b8orl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

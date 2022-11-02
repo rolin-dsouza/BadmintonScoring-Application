@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".round1score">
+
+
+    <TextView
+        android:id="@+id/round1txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:text="Round 1"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+    <!-- android:id="@+id/textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_marginTop="79dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginLeft="30dp"
+
+
+     android:textSize="40dp"
+
+     android:text="Score Board"--> />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/round1txtview"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="75dp"
+        android:gravity="center"
+        android:text="Score Board"
+        android:textColor="@color/orange"
+
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="170dp"
+        android:layout_height="310dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#090909"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordercourt">
+
+
+            <TextView
+                android:id="@+id/plyname1"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="132dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over" />
+
+            <TextView
+                android:id="@+id/sscore1"
+                android:layout_width="150dp"
+                android:layout_height="173dp"
+                android:layout_below="@id/plyname1"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-13dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="100dp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="310dp"
+        android:layout_below="@id/textView2"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/cardview1"
+        android:backgroundTint="#121211"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordercourt">
+
+
+            <TextView
+                android:id="@+id/plyname2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_gravity="top|center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider20"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="132dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="src_over" />
+
+            <TextView
+                android:id="@+id/sscore2"
+                android:layout_width="160dp"
+                android:layout_height="165dp"
+                android:layout_below="@+id/divider20"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="100dp" />
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="240dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/cardview1"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Round 1 Won By  "
+        android:textColor="@color/orange"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rnd1won"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/cardview1"
+        android:layout_toRightOf="@+id/tv8"
+        android:gravity="center"
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/continuernd2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/tv8"
+        android:layout_marginLeft="130dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custbutton1"
+        android:text="continue"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold">
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    tools:context=".finalscore">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:text="Final Result"
+
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TableLayout
+        android:layout_below="@+id/textview1"
+        android:layout_width="match_parent"
+        android:id="@+id/tablelayout"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+       >
+        <TableRow
+            android:background="@color/orange"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Player Name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Round1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingVertical="35dp"
+
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Round2"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:id="@+id/round3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Round3"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_below="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:id="@+id/tablelayout2"
+
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:background="#E1CA52"
+            >
+
+            <TextView
+                android:id="@+id/fplyname1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+
+                android:padding="10sp"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textColorHint="@color/blue1"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply1score1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply1score2"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply1score3"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+    <TableLayout
+        android:layout_below="@+id/tablelayout2"
+        android:layout_width="match_parent"
+        android:id="@+id/tablelayout3"
+
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:background="#E1CA52"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fplyname2"
+                android:textSize="20dp"
+
+                android:textColorHint="@color/blue1"
+
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:padding="10sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply2score1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply2score2"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:id="@+id/fply2score3"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/black"
+                android:gravity="center"
+
+
+                android:padding="10sp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal">
+            </TextView>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablelayout3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="Match Won By "
+        android:textColor="@color/yellow"
+        android:textSize="33dp"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/winnername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablelayout3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_toRightOf="@+id/textview2"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="33dp"></TextView>
+
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textview2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custbutton1"
+
+        android:text="EXIT"
+        android:textSize="24dp">
+
+    </Button>
+
+
+</RelativeLayout>
